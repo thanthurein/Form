@@ -1,0 +1,168 @@
+<html>
+    <head>
+        <title>Question 2</title>
+        <style>
+            body{
+                background-color:wheat ;
+            }
+            h1{
+                background-color: brown;
+                color: whitesmoke;
+                font-family: Arial;
+                text-align: center;
+                padding: 4px;
+            }
+            #link{
+                color: brown;
+                text-align: center;
+                font-family: Arial;
+                font-size: large
+            }
+            #table{
+               
+                background-color: #C6A992; width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+                padding-bottom: 5px;
+            }
+            table , td ,  .position {
+            margin-left: 5px;
+            }
+          
+            #data{
+                background-color: brown;
+                color: whitesmoke;
+                font-family: Arial;
+                text-align: center;
+            }
+            #cap{
+                text-align: center;
+                font-family: Arial;
+                padding-top: 1px;
+                color: brown;
+            }
+            /* ဒါက ဘေးက Your name တို့ ဘာတို့ရဲ့ css */
+            .color {
+                background-color: brown;
+                color: #ffff;
+                padding: 10px;
+                padding-right: 30px;
+                padding-left: 30px;
+                font-size: 16px;
+                text-align: center;
+                
+            }
+            /* ဒါက က input ဟာတွေ */
+            .inputBoxPosition {
+            padding-left: 10px;
+          }
+
+          .inputBoxSize {
+            padding: 2px;
+            padding-right: 110px;
+          }
+           
+        </style>    
+        <h1>Buttery & Flavour</h1>
+    <div id="link">
+        <h2>Contact</h2>
+    </div>
+    <div id="table">
+       <div id="cap"> <h2 >Your Order</h2></div>
+
+        <div>
+        <table align="center">
+            
+           
+                 <!-- Your Name -->
+            <tr class="position">
+                <td class="color ">Your Name</td>
+                 <td class="inputBoxPosition"><input class="inputBoxSize" type="text" placeholder="Your name"></td>
+            </tr>
+
+            <!-- Your Gmail -->
+            <tr>
+                <td class="color">Your Gmail</td>
+                <td class="inputBoxPosition"> <input class="inputBoxSize" type="email" placeholder="Your email"></td>
+            </tr>
+
+             <!-- Your Password -->
+            <tr>
+                <td class="color">Your Password</td>
+                <td class="inputBoxPosition"><input class="inputBoxSize" type="password" placeholder="Password"></td>
+            </tr>
+
+            <!-- Phone Number -->
+            <tr>
+                <td class="color">Phone Number</td>
+                <td class="inputBoxPosition"><input class="inputBoxSize" type="number" placeholder="Phone Number"></td>
+            </tr>
+
+
+                <!-- Your Gender -->
+            <tr>
+                <td class="color">Your Gender</td>
+               <td class="inputBoxPosition"> 
+                      <label for="male">Male</label>
+                      <input type="radio" id="male" name="drone" value="male"
+                      checked>
+            
+                     
+                      <label for="female">Female</label>
+                      <input type="radio" id="female" name="drone" value="female">
+                
+                     
+                      <label for="prefer">Prefer not to say</label>
+                      <input type="radio" id="prefer" name="drone" value="prefer">
+
+               </td>
+            </tr>
+
+            <!-- Your Order -->
+            <tr>
+                <td class="color">Your Order</td>
+                <td class="inputBoxPosition">
+                    <label for="spaghetti">Spaghetti</label>
+                      <input type="checkbox"   value="spaghetti"
+                      checked>
+            
+                     
+                      <label for="rice">Fried Rice</label>
+                      <input type="checkbox" value="rice">
+                
+                     
+                      <label for="pasta">Steak Pasta</label>
+                      <input type="checkbox"  value="pasta">
+                </td>
+            </tr>
+
+                <!-- Your Drink  -->
+            <tr>
+                <td class="color">Your Drink</td>
+                <td class="inputBoxPosition">
+                    <!-- ဒီမှာ မင်းကြိုက်တဲ့ name ထည့် -->
+                    <select name="cars" id="cars">
+                        <optgroup label="Swedish Cars">
+                          <option value="volvo">Volvo</option>
+                          <option value="saab">Saab</option>
+                        </optgroup>
+                        <optgroup label="German Cars">
+                          <option value="mercedes">Mercedes</option>
+                          <option value="audi">Audi</option>
+                        </optgroup>
+                      </select>
+                </td>
+            </tr>
+
+            <!-- Your Message  -->
+            <tr>
+                <td class="color">Your Message</td>
+                <td class="inputBoxPosition"><textarea id="freeform" name="freeform" rows="10" cols="30">
+                    Your Message.....
+                    </textarea></td>
+            </tr>
+        </table>
+    </div>
+    </div>
+    </head>
+</html>
